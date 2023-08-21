@@ -1,2 +1,2 @@
-# Restaurant
-Simple restaurant app with react 
+# To-Do-List
+Simple ToDoList app with react 
