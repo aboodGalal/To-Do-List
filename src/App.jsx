@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Form from "../components/Form";
 import Todo from "../components/Todo";
@@ -56,7 +54,7 @@ function App() {
 
   return (
     <>
-      <h1 className="bold mb-5">Handle Your Tasks</h1>
+      <h1 className="bold mb-5 text-white">Handle Your Tasks</h1>
       <Form onsubmit={addTodos}/>
       {todo.map((tod) => (<Todo key={tod.id} todo={tod} onDelete={() => handleDelete(tod.id)}
       toggle={() =>toggle(tod.id)}/>))}
